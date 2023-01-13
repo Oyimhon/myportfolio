@@ -71,11 +71,11 @@ var sandwich = function () {
 
 sandwich();
 
-lightGallery(document.getElementById('lightgallery'), {
-  selector: '.gallery__item',
-  plugins: [lgZoom, lgThumbnail],
-  licenseKey: '0000-0000-000-0000'
-});
+// lightGallery(document.getElementById('lightgallery'), {
+//   selector: '.gallery__item',
+//   plugins: [lgZoom, lgThumbnail],
+//   licenseKey: '0000-0000-000-0000'
+// });
 
 document.addEventListener('DOMContentLoaded', () => {
   const followCursor = () => {
